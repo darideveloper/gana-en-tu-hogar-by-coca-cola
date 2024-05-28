@@ -10,6 +10,7 @@ export default function H2({ children, hidden, className }) {
         text-gray-900
         ${hidden && 'title-hidden'}
         ${className}
+        mb-6
       `}
     >
       {children}
