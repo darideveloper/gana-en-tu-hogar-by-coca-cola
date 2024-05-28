@@ -1,10 +1,11 @@
 import Header from '@/sections/header'
+import Hero from '@/sections/hero'
 
 export default function Home() {
   return (
     <main> 
       <Header />
-      <h1>main content</h1>
+      <Hero />
     </main>
   )
 }
