@@ -2,6 +2,13 @@
 @tailwind components
 @tailwind utilities
 
+$color-black: #000000
+$color-white: #ffffff
+$color-red: #f40000
+$color-grey: #aaaaaa
+$color-grey-light: #f2f2f2
+$color-brown: #f0ece9
+
 @font-face
   font-family: 'TCCC-UnityHeadline Bold'
   src: url('/fonts/a3fd7039bc65684a34371b2002a7711e.eot')
@@ -70,3 +77,18 @@ body
 .title-hidden
   position: absolute
   left: -9999px
+
+.swiper-button-next, .swiper-button-prev
+    color: $color-red !important
+    transition-duration: 0.3s
+
+    &::after
+        transform: scale(.7)
+        font-weight: bold !important
+
+    &:hover
+        color: $color-black !important
+
+.swiper-pagination 
+  .swiper-pagination-bullet-active
+    background: $color-red !important

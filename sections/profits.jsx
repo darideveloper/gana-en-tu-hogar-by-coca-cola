@@ -8,7 +8,7 @@ export default function Profits({}) {
   ]
 
   return (
-    <div 
+    <section 
       className={`
         profits
       `}
@@ -101,6 +101,6 @@ export default function Profits({}) {
 
 
       </section>
-    </div>
+    </section>
   )
 }

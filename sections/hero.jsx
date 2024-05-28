@@ -3,7 +3,7 @@ import ContactForm from "@/components/contact-form"
 export default function Hero({}) {
   return (
 
-    <div 
+    <section 
       className={`
         hero
         w-full
@@ -69,7 +69,7 @@ export default function Hero({}) {
 
       </div>
       
-    </div>
+    </section>
 
   )
 }
