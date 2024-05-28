@@ -11,6 +11,7 @@ export default function H2({ children, hidden, className }) {
         ${hidden && 'title-hidden'}
         ${className}
         mb-6
+        text-center lg:text-left
       `}
     >
       {children}

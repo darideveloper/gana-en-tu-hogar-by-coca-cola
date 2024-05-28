@@ -1,4 +1,5 @@
 import H2 from '@/components/h2'
+import Separator from '@/components/separator'
 
 export default function HowItWorks({ }) {
   return (
@@ -68,27 +69,7 @@ export default function HowItWorks({ }) {
 
         </div>
 
-        <div
-          className={`
-            block lg:hidden
-            separator-h
-            w-10/12 lg:w-3
-            h-3 lg:h-56 xl:h-72
-            gradiant lg:gradiant-vertical
-            mx-auto
-          `}
-        />
-
-        <div
-          className={`
-            hidden lg:block
-            separator-v
-            w-3
-            h-56 xl:h-72
-            gradiant-vertical
-            mx-auto
-          `}
-        />
+        <Separator />
 
         <video
           src="/videos/como-funciona-gana-en-tu-hogar-con-cocacola.mp4"

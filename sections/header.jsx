@@ -45,7 +45,7 @@ export default function Header({}) {
       </div>
       <img
         src="/images/logo.png"
-        alt="logo"
+        alt="Logo Gana en tu Hohar by Coca-Cola"
         width={250}
         height={100}
         className={`

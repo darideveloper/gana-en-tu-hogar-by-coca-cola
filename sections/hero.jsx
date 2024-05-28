@@ -59,8 +59,8 @@ export default function Hero({}) {
           `}
         >
           <img 
-            src="/images/hero.png"
-            alt="Hero"
+            src="/images/aumenta-tus-ganancias-en-casa-con-coca-cola.png"
+            alt="Aumenta tus ganancias en casa con Coca-Cola"
             className={`
               w-full
               h-auto
