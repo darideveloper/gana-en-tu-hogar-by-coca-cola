@@ -1,3 +1,5 @@
+import H2 from '@/components/h2'
+
 export default function Profits({}) {
 
   const profitsTitles = [
@@ -14,13 +16,11 @@ export default function Profits({}) {
       `}
       id="profits"
     >
-      <h2
-        className={`
-          title-hidden
-        `}
+      <H2
+        hidden={true}
       >
         Beneficios
-      </h2>
+      </H2>
 
       <p
         className={`

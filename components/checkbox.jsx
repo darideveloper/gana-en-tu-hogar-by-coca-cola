@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 
-export default function Checkbox ({ name, required, className, children }) {
+export default function Checkbox ({ children, name, required, className }) {
   return (
     <label
       className={`
@@ -21,8 +21,8 @@ export default function Checkbox ({ name, required, className, children }) {
 }
 
 Checkbox.propTypes = {
+  children: PropTypes.node,
   name: PropTypes.string,
   required: PropTypes.bool,
   className: PropTypes.string,
-  children: PropTypes.node
 }

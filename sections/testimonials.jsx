@@ -1,6 +1,7 @@
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation, Pagination } from 'swiper/modules'
 import { useEffect, useState } from 'react'
+import H2 from '@/components/h2'
 import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
@@ -70,13 +71,11 @@ export default () => {
         my-20
       `}
     >
-      <h2
-        className={`
-          title-hidden
-        `}
+      <H2
+        hidden={true}
       >
         Testimonios de nuestros embajadores
-      </h2>
+      </H2>
 
 
       <Swiper

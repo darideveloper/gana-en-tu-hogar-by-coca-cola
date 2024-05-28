@@ -1,4 +1,5 @@
 import ContactForm from "@/components/contact-form"
+import H2 from "@/components/h2"
 
 export default function Hero({}) {
   return (
@@ -39,14 +40,14 @@ export default function Hero({}) {
           >
             Aumenta tus ganancias desde casa sin sacrificar tiempo con tu familia
           </h1>
-          <h2
+          <H2
             className={`
               my-6
               text-center
             `}
           >
             Conviértete en <b>Embajador</b> de <b>En tu hogar by Coca-Cola®</b> y gana por recomendarnos
-          </h2>
+          </H2>
 
           <ContactForm />
         </div>
