@@ -1,11 +1,13 @@
-import Header from '@/sections/header'
 import Hero from '@/sections/hero'
+import Profits from '@/sections/profits'
+import Testimonials from '@/sections/testimonials'
 
 export default function Home() {
   return (
     <main> 
-      <Header />
       <Hero />
+      <Profits />
+      <Testimonials />
     </main>
   )
 }

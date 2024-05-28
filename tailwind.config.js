@@ -18,7 +18,9 @@ module.exports = {
       "black": '#000000',
       "white": '#ffffff',
       "red": '#f40000',
-      "grey": '#aaaaaa'
+      "grey": '#aaaaaa',
+      'grey-light': '#f2f2f2',
+      "brown": '#f0ece9',
     },
     screens: {
       'xs': '475px',
