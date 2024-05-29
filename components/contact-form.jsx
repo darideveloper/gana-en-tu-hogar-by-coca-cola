@@ -1,13 +1,22 @@
-import { useState } from 'react'
+import PropTypes from 'prop-types'
+
+import { useState, useEffect } from 'react'
+
 import Input from '@/components/input'
 import Checkbox from '@/components/checkbox'
 import Cta from '@/components/cta'
 
-export default function ContactForm({ }) {
+export default function ContactForm({ flexRowBreakpint = "xl"  }) {
 
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [phone, setPhone] = useState('')
+  const [flexRowClass, setFlexRowClass] = useState('')
+
+  // Update flex row class on load
+  useEffect(() => {
+    setFlexRowClass(`${flexRowBreakpint}:flex-row`)
+  }, [])
 
   return (
     <form
@@ -26,7 +35,7 @@ export default function ContactForm({ }) {
         className={`
           inputs
           flex
-          flex-col xl:flex-row
+          flex-col ${flexRowClass}
           gap-4
         `}
       >
@@ -106,4 +115,8 @@ export default function ContactForm({ }) {
     </form>
 
   )
+}
+
+ContactForm.propTypes = {
+  flexRowBreakpint: PropTypes.string,
 }
