@@ -83,17 +83,18 @@ export default function Cities({ }) {
           `}>
 
           {
-            citiesGroup.map((cities, index) => (
+            citiesGroup.map((cities, index_ul) => (
               <ul
+                key={index_ul}
                 className={`
                   text-center
                   w-full lg:w-1/2
                 `}
               >
                 {
-                  cities.map((city, index) => (
+                  cities.map((city, index_li) => (
                     <li
-                      key={index}
+                      key={index_li}
                       className={`
                         lg:text-left
                       `}
