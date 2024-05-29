@@ -23,7 +23,7 @@ export default function Input({ type, placeholder, setValue, value, name, requir
   )
 }
 
-Input.PropTypes = {
+Input.propTypes = {
   type: PropTypes.string.isRequired,
   placeholder: PropTypes.string.isRequired,
   setValue: PropTypes.func.isRequired,

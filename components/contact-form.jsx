@@ -1,6 +1,4 @@
-import PropTypes from 'prop-types'
-
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 
 import Input from '@/components/input'
 import Checkbox from '@/components/checkbox'
