@@ -38,9 +38,7 @@ export default function ContactUs ({}) {
           my-8
         `}
       >
-        <ContactForm
-          flexRowBreakpint="md"
-        />
+        <ContactForm />
       </div>
     </section>
   )
