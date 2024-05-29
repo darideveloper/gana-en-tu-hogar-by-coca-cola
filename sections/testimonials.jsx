@@ -142,7 +142,9 @@ export default () => {
 
                       {
                         Array.from({ length: testimonial.stars }).map((_, index) => (
-                          <span>
+                          <span
+                            key={index}
+                          >
                             ⭐
                           </span>
                         ))
