@@ -9,6 +9,7 @@ export default function HowItWorks({ }) {
         container
         mx-auto
       `}
+      id='how-it-works'
     >
       <H2>
         <p

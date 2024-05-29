@@ -10,6 +10,7 @@ export default function ContactUs ({}) {
         mx-auto
         mt-20
       `}
+      id='contact-us'
     >
       <H2
         hidden={true}

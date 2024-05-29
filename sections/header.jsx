@@ -15,7 +15,7 @@ export default function Header({}) {
     },
     {
       "text": 'Quiero ser embajador',
-      "link": '#contact',
+      "link": '#contact-us',
     }
   ]
 
