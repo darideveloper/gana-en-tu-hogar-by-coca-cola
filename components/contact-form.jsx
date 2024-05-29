@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Input from '@/components/input'
 import Checkbox from '@/components/checkbox'
+import Cta from '@/components/cta'
 
 export default function ContactForm({ }) {
 
@@ -85,25 +86,13 @@ export default function ContactForm({ }) {
           </a>
       </Checkbox>
 
-      <input 
-        type="submit"
-        value="Quiero información GRATIS"
-        className={`
-          btn
-          gradiant
-          w-11/12
-          text-md xs:text-xl xl:text-2xl
-          mx-auto
-          px-4
-          py-2
-          font-bold
-          border-2
-          border-black
-          duration-300
-          hover:scale-105
-          hover:opacity-80
-        `}
-      />
+      <Cta
+        onClick={e => {
+          // TODO: Submit form
+        }}
+      >
+        Quiero más información GRATIS
+      </Cta>
 
       <p
         className={`
