@@ -11,13 +11,13 @@ export default function Input({ type, placeholder, setValue, value, name, requir
       required={required}
       className={`
         ${className}
-        border-grey
+        border-grey hover:border-red focus:border-red
         border-2
         px-4
         py-1
         w-full
         duration-300
-        focus:outline-red
+        outline-none
       `}
     />
   )
