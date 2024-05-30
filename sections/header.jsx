@@ -1,4 +1,5 @@
 import { useState } from "react"
+import Link from 'next/link'
 
 export default function Header({}) {
 
@@ -116,7 +117,7 @@ export default function Header({}) {
                 className={`
                 `}
               >
-                <a 
+                <Link 
                   href={link.link}
                   className={`
                     py-4 md:py-0 
@@ -130,7 +131,7 @@ export default function Header({}) {
                   onClick={() => setIsOpened(false)}
                 >
                   {link.text}
-                </a>
+                </Link>
               </li>
             ))
           }
