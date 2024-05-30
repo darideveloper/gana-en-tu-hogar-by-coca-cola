@@ -73,7 +73,7 @@ export default function Footer ({}) {
               className={`
                   social
                   p-2
-                  w-20 md:w-24
+                  w-20 
                   inline-block
                   mx-auto
               `}
@@ -83,7 +83,6 @@ export default function Footer ({}) {
                 alt="Facebook"
                 className={`
                   w-full
-                  
                 `}
               />
             </a>
