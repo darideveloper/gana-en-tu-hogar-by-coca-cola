@@ -2,8 +2,8 @@ export default function AvisoDePrivacidad({}) {
   return (
     <section
       className={`
-        text-page
         privacy
+        text-page
         container
         mx-auto
         max-w-6xl
