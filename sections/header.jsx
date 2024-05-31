@@ -17,6 +17,14 @@ export default function Header({}) {
     {
       "text": 'Quiero ser embajador',
       "link": '#contact-us',
+    },
+    {
+      "text": 'Terminos y condiciones',
+      "link": '/terminos-y-condiciones',
+    },
+    {
+      "text": 'Avíso de privacidad',
+      "link": '/aviso-de-privacidad',
     }
   ]
 
@@ -25,9 +33,11 @@ export default function Header({}) {
       className={`
         flex
         items-center
-        justify-evenly md:justify-center
+        justify-between lg:justify-evenly
         pt-4
         h-20
+        container
+        mx-auto
       `}
     >
     
@@ -71,7 +81,7 @@ export default function Header({}) {
             w-12
             h-12
             fill-red
-            md:hidden
+            lg:hidden
           `}
         >
             <path 
@@ -83,31 +93,29 @@ export default function Header({}) {
 
       <nav
         className={`
-          fixed md:static
+          fixed lg:static
           top-0
           ${isOpened ? 'left-0' : '-left-full'}
           duration-700
-          h-screen md:h-auto
-          w-80 md:w-full
-          md:max-w-4xl
-          bg-black md:bg-white
+          h-screen lg:h-auto
+          w-80 lg:w-full
+          lg:max-w-6xl
+          bg-black lg:bg-white
           z-10
           shadow-lg
-          shadow-black md:shadow-none
-          lg:ml-32
-          md:mt-2
-          md:debug
+          shadow-black lg:shadow-none
+          lg:mt-2
         `}
       >
         <ul
           className={`
             w-full
             flex
-            flex-col md:flex-row
+            flex-col lg:flex-row
             text-center
             items-center
-            md:justify-evenly
-            mt-20 md:mt-0
+            lg:justify-end
+            mt-20 lg:mt-0
           `}
         >
           {
@@ -115,17 +123,17 @@ export default function Header({}) {
               <li 
                 key={index}
                 className={`
+                  inline-block
                 `}
               >
                 <Link 
                   href={link.link}
                   className={`
-                    py-4 md:py-0 
-                    md:px-4
-                    my-4 md:my-0
-                    text-white md:text-black
+                    py-4 lg:py-0 lg:px-1 xl:px-5
+                    my-4 lg:my-0
+                    text-white lg:text-black
                     inline-block
-                    text-xl
+                    text-md
                     font-bold
                   `}
                   onClick={() => setIsOpened(false)}
