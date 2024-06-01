@@ -42,7 +42,7 @@ export default function ContactForm({ }) {
 
         <Input
           type="email"
-          placeholder="Email*"
+          placeholder="Correo Electrónico*"
           name="email"
           required={true}
           setValue={setEmail}
@@ -65,6 +65,7 @@ export default function ContactForm({ }) {
         className={`
           mx-auto
           inline-block
+          text-sm
         `}
       >
         Acepto el &#160;
@@ -92,7 +93,7 @@ export default function ContactForm({ }) {
           // TODO: Submit form
         }}
       >
-        Quiero más información GRATIS
+        Unirme GRATIS a sesión informativa
       </Cta>
 
       <p
