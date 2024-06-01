@@ -61,7 +61,7 @@ export default function Header({}) {
             duration-300
             hover:opacity-50
             p-4
-            flex
+            flex lg:hidden
             flex-col
             items-end
             justify-center
@@ -130,13 +130,14 @@ export default function Header({}) {
                   key={index}
                   className={`
                     inline-block
+                    lg:w-36 2xl:w-auto
                   `}
                 >
                   <Link 
                     href={link.link}
                     className={`
                       py-4 lg:py-0 lg:px-1 xl:px-5
-                      my-4 lg:my-0
+                      my-4
                       text-white
                       inline-block
                       text-md

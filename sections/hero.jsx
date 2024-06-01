@@ -44,6 +44,7 @@ export default function Hero({}) {
             className={`
               my-6
               text-center
+              text-xl
             `}
           >
             Conviértete en <b>Embajador</b> de <b>En tu hogar by Coca-Cola®</b> y gana por recomendarnos
