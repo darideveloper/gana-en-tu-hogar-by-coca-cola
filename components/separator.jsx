@@ -16,7 +16,7 @@ export default function Separator ({}) {
         className={`
           separator-v
           hidden lg:block
-          w-3
+          w-2
           h-56 xl:h-72
           gradiant-vertical
           mx-auto
