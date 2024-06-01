@@ -43,7 +43,7 @@ export default function Hero({}) {
           <H2
             className={`
               my-6
-              text-center
+              lg:text-center
               text-xl
             `}
           >

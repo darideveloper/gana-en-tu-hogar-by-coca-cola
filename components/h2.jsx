@@ -9,9 +9,9 @@ export default function H2({ children, hidden, className }) {
         font-bold
         text-gray-900
         ${hidden && 'title-hidden'}
-        ${className}
         mb-6
         text-center lg:text-left
+        ${className}
       `}
     >
       {children}
