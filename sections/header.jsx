@@ -8,15 +8,15 @@ export default function Header({}) {
   const links = [
     {
       "text": 'Beneficios',
-      "link": '#profits',
+      "link": '/#profits',
     },
     {
       "text": 'Cómo funciona',
-      "link": '#how-it-works',
+      "link": '/#how-it-works',
     },
     {
       "text": 'Quiero ser embajador',
-      "link": '#contact-us',
+      "link": '/#contact-us',
     },
     {
       "text": 'Terminos y condiciones',
