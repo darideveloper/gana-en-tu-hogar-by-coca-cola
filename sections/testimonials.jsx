@@ -34,14 +34,14 @@ export default () => {
 
   const testimonialsData = [
     {
-      "client": "dari dev 1",
+      "client": "miguel",
       "stars": 5,
-      "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec nulla sit amet turpis ultricies."
+      "comment": "Es una gran ventaja recibir acompañamiento personalizado y no tener que pagar para afiliarte."
     },
     {
-      "client": "dari dev 2",
+      "client": "lupita",
       "stars": 5,
-      "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec nulla sit amet turpis ultricies."
+      "comment": "Mis ganancias están libres de comisiones y gastos administrativos"
     },
     {
       "client": "dari dev 3",
