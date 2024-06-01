@@ -59,10 +59,10 @@ export default function HowItWorks({ }) {
           `}
         >
           <p>
-            Gana desde <b>$100</b> por cada nueva persona que recomiendes y siga comprando.
+            Gana desde <strong>$100</strong> por cada nueva persona que recomiendes y siga comprando.
           </p>
           <p>
-            Como embajador, recibirás un cupón único que podrás compartir con tu familia, amigos y en redes sociales, brindándoles <b>$60</b> de descuento en sus <b>3 primeras compras</b> de $299 o más.
+            Como embajador, recibirás un cupón único que podrás compartir con tu familia, amigos y en redes sociales, brindándoles <strong>$60</strong> de descuento en sus <strong>3 primeras compras</strong> de $299 o más.
           </p>
           <p>
             Nosotros nos encargamos del cobro y la entrega; tú solo debes recomendar y recordar a tu red que continúe disfrutando los beneficios de En tu hogar by Coca-Cola®.

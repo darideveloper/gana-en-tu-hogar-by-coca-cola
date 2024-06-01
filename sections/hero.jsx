@@ -47,7 +47,7 @@ export default function Hero({}) {
               text-xl
             `}
           >
-            Conviértete en <b>Embajador</b> de <b>En tu hogar by Coca-Cola®</b> y gana por recomendarnos
+            Conviértete en <strong>Embajador</strong> de <strong>En tu hogar by Coca-Cola®</strong> y gana por recomendarnos
           </H2>
 
           <ContactForm />

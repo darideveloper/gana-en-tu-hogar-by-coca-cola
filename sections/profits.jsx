@@ -33,7 +33,7 @@ export default function Profits({}) {
           mx-auto
         `}
       >
-        <b>Gana En tu hogar</b> es la plataforma que te permite acceder a nuestro programa de Embajadores En tu hogar by Coca-Cola® y disfrutar de sus múltiples beneficios
+        <strong>Gana En tu hogar</strong> es la plataforma que te permite acceder a nuestro programa de Embajadores En tu hogar by Coca-Cola® y disfrutar de sus múltiples beneficios
       </p>
 
       <section 
