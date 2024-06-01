@@ -21,6 +21,8 @@ module.exports = {
       "grey": '#aaaaaa',
       'grey-light': '#f2f2f2',
       "brown": '#f0ece9',
+      "blue": '#82e1ff',
+      "yellow": '#ffb400',
     },
     screens: {
       'xs': '475px',
