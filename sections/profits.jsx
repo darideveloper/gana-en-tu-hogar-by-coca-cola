@@ -3,10 +3,10 @@ import H2 from '@/components/h2'
 export default function Profits({}) {
 
   const profitsTitles = [
-    'sin costo de afiliación',
-    'incentivos exclusivos',
-    'desde la comodidad de tu hogar',
-    'gestiona tu tiempo'
+    (<p><strong>sin costo</strong> de afiliación</p>),
+    (<p><strong>incentivos</strong> exclusivos</p>),
+    (<p>desde la <strong>comodidad de tu hogar</strong></p>),
+    (<p>gestiona <strong>tu tiempo</strong></p>),
   ]
 
   return (
@@ -75,7 +75,7 @@ export default function Profits({}) {
                 `}
               >
                 <img 
-                  src={`/images/profits/${title}.svg`} 
+                  src={`/images/profits/${index + 1}.svg`} 
                   alt={`Beneficio de Gana En tu hogar: ${title}`}
                   className={`
                     w-9/12
@@ -86,7 +86,6 @@ export default function Profits({}) {
                 className={`
                   text-center
                   text-lg
-                  font-bold
                   my-4
                   capitalize
                 `}
