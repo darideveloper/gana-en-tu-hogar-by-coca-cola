@@ -3,7 +3,7 @@ import Profits from '@/sections/profits'
 import Testimonials from '@/sections/testimonials'
 import HowItWorks from '@/sections/how-it-works'
 import Cities from '@/sections/cities'
-import NewMore from '@/sections/know-more'
+import KnowMore from '@/sections/know-more'
 import ContactUs from '@/sections/contact-us'
 
 export default function Home() {
@@ -14,7 +14,7 @@ export default function Home() {
       <Testimonials />
       <HowItWorks />
       <Cities />
-      <NewMore />
+      <KnowMore />
       <ContactUs />
     </main>
   )
