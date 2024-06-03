@@ -6,7 +6,7 @@ import Cities from '@/sections/cities'
 import KnowMore from '@/sections/know-more'
 import ContactUs from '@/sections/contact-us'
 
-export default function Home() {
+export default function Index() {
   return (
     <main> 
       <Hero />

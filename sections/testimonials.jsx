@@ -34,6 +34,21 @@ export default () => {
 
   const testimonialsData = [
     {
+      "client": "lilyana",
+      "stars": 5,
+      "comment": "Este programa me ha permitido generar un dinerito extra sin salir de casa y poder disfrutar con mis hijos."
+    },
+    {
+      "client": "ricardo",
+      "stars": 5,
+      "comment": "Me encanta que ellos se encarguen de la entrega y el cobro. Yo solo me preocupo de atraer nuevas personas y asegurarme de que sigan comprando."
+    },
+    {
+      "client": "elena",
+      "stars": 5,
+      "comment": "¡Totalmente recomendado!, y lo mejor es que todos consumen los productos de Coca Cola."
+    },
+    {
       "client": "miguel",
       "stars": 5,
       "comment": "Es una gran ventaja recibir acompañamiento personalizado y no tener que pagar para afiliarte."
@@ -42,21 +57,6 @@ export default () => {
       "client": "lupita",
       "stars": 5,
       "comment": "Mis ganancias están libres de comisiones y gastos administrativos"
-    },
-    {
-      "client": "dari dev 3",
-      "stars": 5,
-      "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec nulla sit amet turpis ultricies."
-    },
-    {
-      "client": "dari dev 4",
-      "stars": 5,
-      "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec nulla sit amet turpis ultricies."
-    },
-    {
-      "client": "dari dev 5",
-      "stars": 5,
-      "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec nulla sit amet turpis ultricies."
     },
 
   ]
@@ -174,7 +174,13 @@ export default () => {
 
                 </div>
 
-                <p>{testimonial.comment}</p>
+                <p
+                  className={`
+                      text-center md:text-left
+                  `}
+                >
+                  {testimonial.comment}
+                </p>
 
               </article>
             </SwiperSlide>
