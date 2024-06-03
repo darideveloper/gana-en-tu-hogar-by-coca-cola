@@ -46,16 +46,23 @@ export default function Header({}) {
           py-12
         `}
       >
-        <img
-          src="/images/logo-inverted.webp"
-          alt="Logo Gana en tu Hohar by Coca-Cola"
-          width={250}
-          height={100}
+
+        <Link
+          href="/"
           className={`
-            w-52 sm:w-80 lg:w-60 xl:w-80
-            ml-2 sm:ml-0
           `}
-        />
+        >
+          <img
+            src="/images/logo-inverted.webp"
+            alt="Logo Gana en tu Hohar by Coca-Cola"
+            width={250}
+            height={100}
+            className={`
+              w-64 sm:w-80 lg:w-72 xl:w-80
+              ml-2 sm:ml-0
+            `}
+          />
+        </Link>
 
         <button
           className={`
