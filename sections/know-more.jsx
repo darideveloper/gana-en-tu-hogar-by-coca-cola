@@ -57,15 +57,6 @@ export default function NewMore({}) {
             `}
           />
         </a>
-
-        <Cta
-          onClick={e => {
-            // Open link in new tab
-            window.open(ctaLink, "_blank")
-          }}
-        >
-          Descúbrela aquí
-        </Cta>
       </div>
 
     </section>
