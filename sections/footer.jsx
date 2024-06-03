@@ -98,6 +98,7 @@ export default function Footer ({}) {
             items-center
             justify-center
             mt-5
+            text-sm
           `}
         >
           <p
@@ -135,7 +136,7 @@ export default function Footer ({}) {
         className={`
           decoraator
           h-3
-          bg-red
+          gradiant
         `}
       >
 
