@@ -52,7 +52,8 @@ export default function Header({}) {
           width={250}
           height={100}
           className={`
-          w-80 lg:w-60 xl:w-80
+            w-52 sm:w-80 lg:w-60 xl:w-80
+            ml-2 sm:ml-0
           `}
         />
 
