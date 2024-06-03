@@ -5,10 +5,11 @@ import HowItWorks from '@/sections/how-it-works'
 import Cities from '@/sections/cities'
 import KnowMore from '@/sections/know-more'
 import ContactUs from '@/sections/contact-us'
+import RootLayout from '@/layouts/root-layout'
 
 export default function Index() {
   return (
-    <main> 
+    <RootLayout>
       <Hero />
       <Profits />
       <Testimonials />
@@ -16,6 +17,6 @@ export default function Index() {
       <Cities />
       <KnowMore />
       <ContactUs />
-    </main>
+    </RootLayout> 
   )
 }
