@@ -8,7 +8,7 @@ export default function ContactUs ({}) {
         contact-us
         container
         mx-auto
-        mt-20
+        mt-32
       `}
       id='contact-us'
     >
@@ -26,9 +26,9 @@ export default function ContactUs ({}) {
           font-bold
         `}
       >
-        Lleva la magia de En tu hogar by Coca-Cola® a más personas y recibe recompensas por recomendarnos.
-        <br />
         ¡Afíliate ya!
+        <br />
+        Lleva la magia de En tu hogar by Coca-Cola® a más personas y recibe recompensas por recomendarnos.
       </p>
 
       <div 
