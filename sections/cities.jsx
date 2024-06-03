@@ -77,7 +77,7 @@ export default function Cities({ }) {
             cities
             w-11/12 lg:w-7/12
             flex
-            flex-col lg:flex-row
+            flex-row
             items-center
             justify-center
           `}>
@@ -89,6 +89,7 @@ export default function Cities({ }) {
                 className={`
                   text-center
                   w-full lg:w-1/2
+                  mx-2             
                 `}
               >
                 {
@@ -97,6 +98,7 @@ export default function Cities({ }) {
                       key={index_li}
                       className={`
                         lg:text-left
+                        my-2 sm:my-1 md:my-0
                       `}
                     >
                       {city}
