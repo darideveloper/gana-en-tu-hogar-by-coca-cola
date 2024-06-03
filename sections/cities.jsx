@@ -44,7 +44,12 @@ export default function Cities({ }) {
         mt-20
       `}
     >
-      <H2>
+      <H2
+        className={`
+          w-11/12 sm:w-full
+          mx-auto
+        `}
+      >
         Ciudades con cobertura
       </H2>
 

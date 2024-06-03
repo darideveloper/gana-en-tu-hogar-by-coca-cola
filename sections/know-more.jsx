@@ -14,13 +14,20 @@ export default function NewMore({}) {
         mt-20
       `}
     >
-      <H2>
+      <H2
+        className={`
+          w-11/12 lg:w-full
+          mx-auto
+        `}
+      >
         Conoce más de En tu hogar by Coca-Cola®
       </H2>
       
       <p
         className={`
           text-center lg:text-left
+          w-11/12 lg:w-full
+          mx-auto
         `}
       >
         Llevamos a la puerta de tu casa tus bebidas y productos favoritos, sin costo de envío.

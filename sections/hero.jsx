@@ -21,6 +21,7 @@ export default function Hero({}) {
           justify-between
           mx-auto
           py-12 lg:py-24
+          px-2 sm:px-0
           gap-6
         `}
       >

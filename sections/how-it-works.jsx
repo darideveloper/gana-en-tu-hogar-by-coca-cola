@@ -11,7 +11,11 @@ export default function HowItWorks({ }) {
       `}
       id='how-it-works'
     >
-      <H2>
+      <H2
+        className={`
+          max-w-11/12
+        `}
+      >
         <p
           className={`
             text-center
@@ -25,7 +29,7 @@ export default function HowItWorks({ }) {
           src="/images/gana-en-tu-hogar.webp"
           alt="Gana en tu hogar by Coca-Cola"
           className={`
-            w-80
+            w-11/12 sm:w-80
             mx-auto
             block
             md:inline-block

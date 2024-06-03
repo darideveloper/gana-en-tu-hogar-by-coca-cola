@@ -22,8 +22,9 @@ export default function ContactUs ({}) {
         className={`
           text-center
           max-w-5xl
-          mx-auto
           font-bold
+          w-11/12 lg:w-full
+          mx-auto
         `}
       >
         ¡Afíliate ya!
