@@ -12,11 +12,11 @@ export default function Cta({ children, onClick, className }) {
         px-4
         py-2
         font-bold
-        border-2
-        border-black
         duration-300
         hover:scale-105
+        rounded-lg
         ${className}
+
       `}
       onClick={onClick}
     >
