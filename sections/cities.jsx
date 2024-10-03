@@ -3,9 +3,9 @@ import Separator from '@/components/separator'
 
 export default function Cities({ }) {
 
-  const currentFase = "fase-1"
+  const currentPhase = "phase-1"
   const citiesData = {
-    "fase-1": {
+    "phase-1": {
       "map": "cuidades-participantes-coca-cola-en-tu-hogar-1.svg",
       "cities": [
         "Ciudad de México",
@@ -14,7 +14,7 @@ export default function Cities({ }) {
         "Toluca",
       ],
     },
-    "fase-2": {
+    "phase-2": {
       "map": "cuidades-participantes-coca-cola-en-tu-hogar-2.svg",
       "cities": [
         "Acapulco",
@@ -44,7 +44,7 @@ export default function Cities({ }) {
       ],
     }
   }
-  const currentCitiesData = citiesData[currentFase]
+  const currentCitiesData = citiesData[currentPhase]
   const currentCities = currentCitiesData.cities
   const currentMap = currentCitiesData.map
 
