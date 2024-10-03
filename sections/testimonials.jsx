@@ -36,27 +36,26 @@ export default () => {
     {
       "client": "lilyana",
       "stars": 5,
-      "comment": "Este programa me ha permitido generar un dinerito extra sin salir de casa y poder disfrutar con mis hijos."
+      "comment": "Este programa me ha permitido generar un dinerito extra sin salir de casa y poder disfrutar con mis hijos.",
+      "location": "CDMX, México"
     },
     {
       "client": "ricardo",
       "stars": 5,
-      "comment": "Me encanta que ellos se encarguen de la entrega y el cobro. Yo solo me preocupo de atraer nuevas personas y asegurarme de que sigan comprando."
+      "comment": "Me encanta que ellos se encarguen de la entrega y el cobro. Yo solo me preocupo de atraer nuevas personas y asegurarme de que sigan comprando.",
+      "location": "CDMX, México"
     },
     {
       "client": "elena",
       "stars": 5,
-      "comment": "¡Totalmente recomendado!, y lo mejor es que todos consumen los productos de Coca Cola."
+      "comment": "¡Totalmente recomendado!, y lo mejor es que todos consumen los productos de Coca Cola.",
+      "location": "CDMX, México"
     },
     {
       "client": "miguel",
       "stars": 5,
-      "comment": "Es una gran ventaja recibir acompañamiento personalizado y no tener que pagar para afiliarte."
-    },
-    {
-      "client": "lupita",
-      "stars": 5,
-      "comment": "Mis ganancias están libres de comisiones y gastos administrativos"
+      "comment": "Es una gran ventaja recibir acompañamiento personalizado y no tener que pagar para afiliarte.",
+      "location": "CDMX, México"
     },
 
   ]
@@ -78,13 +77,13 @@ export default () => {
       </H2>
 
 
-      <Swiper
-        modules={[Navigation, Pagination]}
-        spaceBetween={80}
-        slidesPerView={perPage}
-        navigation
-        pagination={{ clickable: true }}
+      <div
+        className={`
+          grid
+          grid-cols-1 sm:grid-cols-2 xl:grid-cols-4
+        `}
       >
+
 
         {
           testimonialsData.map((testimonial, index) => (
@@ -92,7 +91,7 @@ export default () => {
               <article
                 className={`
                   flex
-                  flex-col-reverse
+                  flex-col
                   mb-8
                   w-11/12
                   mx-auto
@@ -109,7 +108,7 @@ export default () => {
                   `}
                 >
                   <img
-                    src={`/images/testimonials/${testimonial.client}.png`}
+                    src={`/images/testimonials/${testimonial.client}.svg`}
                     alt={`foto de embajador ${testimonial.client}`}
                     className={`
                       profile-pic
@@ -136,6 +135,23 @@ export default () => {
 
                     <p
                       className={`
+                        mb-4
+                      `}
+                    >
+                      <img
+                        src="/images/icon-location.svg"
+                        className={`
+                          w-3
+                          inline-block
+                          mx-1
+                          mb-1
+                        `}
+                      />
+                      {testimonial.location}
+                    </p>
+
+                    <p
+                      className={`
                         stars
                         flex
                       `}
@@ -146,7 +162,7 @@ export default () => {
                           <span
                             key={index}
                           >
-                            <svg 
+                            <svg
                               clipRule="evenodd"
                               fillRule="evenodd"
                               strokeLinejoin="round"
@@ -155,14 +171,14 @@ export default () => {
                               xmlns="http://www.w3.org/2000/svg"
                               className={`
                                 fill-yellow
-                                w-6
+                                w-5
                               `}
                             >
-                                <path 
-                                  d="m11.322 2.923c.126-.259.39-.423.678-.423.289 0 .552.164.678.423.974 1.998 2.65 5.44 2.65 5.44s3.811.524 6.022.829c.403.055.65.396.65.747 0 .19-.072.383-.231.536-1.61 1.538-4.382 4.191-4.382 4.191s.677 3.767 1.069 5.952c.083.462-.275.882-.742.882-.122 0-.244-.029-.355-.089-1.968-1.048-5.359-2.851-5.359-2.851s-3.391 1.803-5.359 2.851c-.111.06-.234.089-.356.089-.465 0-.825-.421-.741-.882.393-2.185 1.07-5.952 1.07-5.952s-2.773-2.653-4.382-4.191c-.16-.153-.232-.346-.232-.535 0-.352.249-.694.651-.748 2.211-.305 6.021-.829 6.021-.829s1.677-3.442 2.65-5.44z" 
-                                  fillRule="nonzero"
-                                />
-                              </svg>
+                              <path
+                                d="m11.322 2.923c.126-.259.39-.423.678-.423.289 0 .552.164.678.423.974 1.998 2.65 5.44 2.65 5.44s3.811.524 6.022.829c.403.055.65.396.65.747 0 .19-.072.383-.231.536-1.61 1.538-4.382 4.191-4.382 4.191s.677 3.767 1.069 5.952c.083.462-.275.882-.742.882-.122 0-.244-.029-.355-.089-1.968-1.048-5.359-2.851-5.359-2.851s-3.391 1.803-5.359 2.851c-.111.06-.234.089-.356.089-.465 0-.825-.421-.741-.882.393-2.185 1.07-5.952 1.07-5.952s-2.773-2.653-4.382-4.191c-.16-.153-.232-.346-.232-.535 0-.352.249-.694.651-.748 2.211-.305 6.021-.829 6.021-.829s1.677-3.442 2.65-5.44z"
+                                fillRule="nonzero"
+                              />
+                            </svg>
                           </span>
                         ))
                       }
@@ -177,8 +193,19 @@ export default () => {
                 <p
                   className={`
                       text-center md:text-left
+                      flex
+                      items-start
+                      justify-center
+
                   `}
                 >
+                  <img
+                    src="/images/icon-quote.svg"
+                    className={`
+                      w-16
+                      mr-4
+                    `}
+                  />
                   {testimonial.comment}
                 </p>
 
@@ -186,7 +213,7 @@ export default () => {
             </SwiperSlide>
           ))
         }
-      </Swiper>
+      </div>
     </section>
 
   )
