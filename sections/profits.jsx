@@ -40,7 +40,8 @@ export default function Profits({}) {
         className={`
           cards-wrapper
           mx-auto
-          bg-grey-light
+          bg-black
+          text-white
 
         `}
       >
@@ -53,19 +54,20 @@ export default function Profits({}) {
           py-12 md:py-8
           container
           mx-auto
-          gap-6
+          gap-0
         `}
       >
         {
           profitsTitles.map((title, index) => (
             <article
               key={index}
-              className={`card`}
+              className={`
+                card
+              `}
             >
               <div 
                 className={`
                   img-wrapper
-                  bg-brown
                   rounded-full
                   w-24 h-24
                   mx-auto
@@ -85,7 +87,7 @@ export default function Profits({}) {
               <h3
                 className={`
                   text-center
-                  text-lg
+                  text-md
                   my-4
                   capitalize
                 `}
