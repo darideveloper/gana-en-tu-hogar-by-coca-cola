@@ -17,9 +17,8 @@ export default function Separator ({}) {
           separator-v
           hidden lg:block
           w-2
-          h-56 xl:h-72
+          h-64 xl:h-80
           gradiant-vertical
-          mx-auto
         `}
       />
     </>
