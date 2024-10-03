@@ -1,39 +1,57 @@
 import H2 from "@/components/h2"
 import Cta from "@/components/cta"
 
-export default function NewMore({}) {
-  
+export default function NewMore({ }) {
+
   const ctaLink = "https://www.coca-colaentuhogar.com/"
- 
+
   return (
     <section
       className={`
         new-more
-        container
-        mx-auto
         mt-20
       `}
     >
-      <H2
+      <div
         className={`
-          w-11/12 lg:w-full
+          container
           mx-auto
         `}
       >
-        Conoce más de En tu hogar by Coca-Cola®
-      </H2>
-      
-      <p
-        className={`
-          text-center lg:text-left
-          w-11/12 lg:w-full
-          mx-auto
-        `}
-      >
-        Llevamos a la puerta de tu casa tus bebidas y productos favoritos, sin costo de envío.
-      </p>
+        <H2
+          className={`
+            w-11/12 lg:w-full
+            mx-auto
+            lg:text-center
+            mb-2
+          `}
+        >
+          Conoce más de En tu hogar by Coca-Cola®
+        </H2>
 
-      <div 
+        <p
+          className={`
+            text-center
+            w-11/12 lg:w-full
+            mx-auto
+            text-xs
+          `}
+        >
+          Llevamos a la puerta de tu casa tus bebidas y productos favoritos, sin costo de envío.
+        </p>
+
+        <img
+            src="/images/logo-2.svg"
+            alt="Conoce más sobre En tu hogar by Coca-Cola®"
+            className={`
+              w-48
+              my-8
+              mx-auto md:mx-0
+            `}
+          />
+      </div>
+
+      <div
         className={`
           cta-wrapper
           flex
@@ -41,11 +59,10 @@ export default function NewMore({}) {
           justify-center
           flex-col
           w-full
-          max-w-6xl
           mx-auto
         `}
       >
-        <a 
+        <a
           href={ctaLink}
           target="_blank"
           className={`
@@ -56,8 +73,8 @@ export default function NewMore({}) {
             hover:scale-105
           `}
         >
-          <img 
-            src="/images/conoce-mas-sobre-en-tu-hogar-by-coca-cola.png"
+          <img
+            src="/images/conoce-mas-sobre-en-tu-hogar-by-coca-cola.webp"
             alt="Conoce más sobre En tu hogar by Coca-Cola®"
             className={`
               w-full
