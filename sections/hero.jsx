@@ -61,7 +61,7 @@ export default function Hero({}) {
           `}
         >
           <img 
-            src="/images/aumenta-tus-ganancias-en-casa-con-coca-cola.png"
+            src="/images/aumenta-tus-ganancias-en-casa-con-coca-cola.webp"
             alt="Aumenta tus ganancias en casa con Coca-Cola"
             className={`
               w-full
