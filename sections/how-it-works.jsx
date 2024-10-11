@@ -23,7 +23,7 @@ export default function HowItWorks({ }) {
             md:mr-2
           `}
         >
-          ¿Como funciona
+          ¿Cómo funciona
         </p>
         <img
           src="/images/gana-en-tu-hogar.webp"

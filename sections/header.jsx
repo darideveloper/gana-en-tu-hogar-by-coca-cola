@@ -11,7 +11,7 @@ export default function Header({}) {
       "link": '/#profits',
     },
     {
-      "text": 'Cómo funciona',
+      "text": '¿Cómo funciona?',
       "link": '/#how-it-works',
     },
     {
