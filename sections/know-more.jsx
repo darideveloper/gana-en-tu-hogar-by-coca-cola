@@ -39,16 +39,6 @@ export default function NewMore({ }) {
         >
           Llevamos a la puerta de tu casa tus bebidas y productos favoritos, sin costo de envío.
         </p>
-
-        <img
-            src="/images/logo-2.svg"
-            alt="Conoce más sobre En tu hogar by Coca-Cola®"
-            className={`
-              w-48
-              my-8
-              mx-auto md:mx-0
-            `}
-          />
       </div>
 
       <div
@@ -60,6 +50,7 @@ export default function NewMore({ }) {
           flex-col
           w-full
           mx-auto
+          overflow-hidden
         `}
       >
         <a
@@ -74,10 +65,19 @@ export default function NewMore({ }) {
           `}
         >
           <img
-            src="/images/conoce-mas-sobre-en-tu-hogar-by-coca-cola.webp"
+            src="/images/conoce-mas-sobre-en-tu-hogar-by-coca-cola-desktop.webp"
             alt="Conoce más sobre En tu hogar by Coca-Cola®"
             className={`
               w-full
+              hidden md:block
+            `}
+          />
+          <img
+            src="/images/conoce-mas-sobre-en-tu-hogar-by-coca-cola-mobile.webp"
+            alt="Conoce más sobre En tu hogar by Coca-Cola®"
+            className={`
+              w-full
+              md:hidden
             `}
           />
         </a>
