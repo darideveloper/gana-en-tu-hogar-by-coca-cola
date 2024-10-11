@@ -23,7 +23,7 @@ export default function HowItWorks({ }) {
             md:mr-2
           `}
         >
-          Como funciona
+          ¿Como funciona
         </p>
         <img
           src="/images/gana-en-tu-hogar.webp"
@@ -36,6 +36,15 @@ export default function HowItWorks({ }) {
             md:-mt-1
           `}
         />
+        <p
+          className={`
+            text-center
+            md:inline-block
+            md:mr-2
+          `}
+        >
+          ?
+        </p>
       </H2>
 
       <div

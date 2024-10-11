@@ -19,11 +19,11 @@ export default function Header({}) {
       "link": '/#contact-us',
     },
     {
-      "text": 'Terminos y condiciones',
+      "text": 'Términos y condiciones',
       "link": '/terminos-y-condiciones',
     },
     {
-      "text": 'Avíso de privacidad',
+      "text": 'Aviso de privacidad',
       "link": '/aviso-de-privacidad',
     }
   ]

@@ -93,7 +93,7 @@ export default function ContactForm({ }) {
           // TODO: Submit form
         }}
       >
-        Unirme GRATIS a sesión informativa
+        Obtener más información GRATIS
       </Cta>
 
       <p

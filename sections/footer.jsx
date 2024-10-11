@@ -9,7 +9,7 @@ export default function Footer ({}) {
       "url": "/terminos-y-condiciones"
     },
     {
-      "title": "Avíso de privacidad",
+      "title": "Aviso de privacidad",
       "url": "/aviso-de-privacidad"
     }
   ]
