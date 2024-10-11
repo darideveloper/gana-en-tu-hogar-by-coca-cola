@@ -69,7 +69,7 @@ export default function Footer ({}) {
             </H2>
 
             <a 
-              href="#"
+              href="https://api.whatsapp.com/send?phone=5215554143346"
               className={`
                   social
                   p-2
