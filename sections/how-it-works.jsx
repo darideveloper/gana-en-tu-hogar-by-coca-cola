@@ -19,7 +19,7 @@ export default function HowItWorks({ }) {
         <p
           className={`
             text-center
-            md:inline-block
+            inline-block
             md:mr-2
           `}
         >
@@ -29,17 +29,16 @@ export default function HowItWorks({ }) {
           src="/images/gana-en-tu-hogar.webp"
           alt="Gana en tu hogar by Coca-Cola"
           className={`
-            w-11/12 sm:w-80
+            w-9/12 sm:w-80
             mx-auto
-            block
-            md:inline-block
+            inline-block
             md:-mt-1
           `}
         />
         <p
           className={`
             text-center
-            md:inline-block
+            inline-block
             md:mr-2
           `}
         >
@@ -71,13 +70,22 @@ export default function HowItWorks({ }) {
             text-center lg:text-left
           `}
         >
-          <p>
+          <p
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
             Gana desde <strong>$100</strong> por cada nueva persona que recomiendes y siga comprando.
           </p>
-          <p>
+          <p
+            data-aos="fade-up"
+            data-aos-delay="400"
+          >
             Como embajador, recibirás un cupón único que podrás compartir con tu familia, amigos y en redes sociales, brindándoles <strong>$60</strong> de descuento en sus <strong>3 primeras compras</strong> de $299 o más.
           </p>
-          <p>
+          <p
+            data-aos="fade-up"
+            data-aos-delay="600"
+          >
             Nosotros nos encargamos del cobro y la entrega; tú solo debes recomendar y recordar a tu red que continúe disfrutando los beneficios de En tu hogar by Coca-Cola®.
           </p>
 

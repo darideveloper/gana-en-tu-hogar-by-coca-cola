@@ -7,16 +7,37 @@ import KnowMore from '@/sections/know-more'
 import ContactUs from '@/sections/contact-us'
 import RootLayout from '@/layouts/root-layout'
 
+import AOS from "aos"
+import { useEffect } from "react"
+
+import "aos/dist/aos.css"
+
 export default function Index() {
+
+  // Initialize AOS
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    })
+  }, [])
+
   return (
     <RootLayout>
-      <Hero />
-      <Profits />
-      <Testimonials />
-      <HowItWorks />
-      <Cities />
-      <KnowMore />
-      <ContactUs />
+      <main
+        className={`
+          w-full
+          relative
+          overflow-hidden
+        `}
+      >
+        <Hero />
+        <Profits />
+        <Testimonials />
+        <HowItWorks />
+        <Cities />
+        <KnowMore />
+        <ContactUs />
+      </main>
     </RootLayout> 
   )
 }

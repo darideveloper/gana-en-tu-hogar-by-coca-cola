@@ -97,6 +97,8 @@ export default () => {
                 mx-auto
               `}
               key={index}
+              data-aos="fade-down"
+              data-aos-delay={index * 200}
             >
 
               <div

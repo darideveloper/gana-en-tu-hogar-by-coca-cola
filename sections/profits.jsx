@@ -64,6 +64,8 @@ export default function Profits({}) {
               className={`
                 card
               `}
+              data-aos="fade-up"
+              data-aos-delay={index * 200}
             >
               <div 
                 className={`

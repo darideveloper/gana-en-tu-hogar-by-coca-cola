@@ -47,6 +47,7 @@ export default function Footer ({}) {
               w-11/12
               max-w-md
             `}
+            data-aos="fade-down"
           />
 
           <div 
@@ -77,6 +78,8 @@ export default function Footer ({}) {
                   inline-block
                   mx-auto
               `}
+              data-aos="fade-down"
+              data-aos-delay="400"
             >
               <img 
                 src="/images/whatsapp.svg"

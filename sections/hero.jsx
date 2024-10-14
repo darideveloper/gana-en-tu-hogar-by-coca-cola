@@ -31,6 +31,7 @@ export default function Hero({}) {
             texts
             w-full lg:w-1/2
           `}
+          data-aos="fade-down"
         >
           <h1
             className={`

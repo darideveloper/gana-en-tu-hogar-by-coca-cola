@@ -63,6 +63,8 @@ export default function NewMore({ }) {
             duration-300
             hover:scale-105
           `}
+          data-aos="fade-up"
+          data-aos-delay="400"
         >
           <img
             src="/images/conoce-mas-sobre-en-tu-hogar-by-coca-cola-desktop.webp"

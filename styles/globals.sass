@@ -10,7 +10,6 @@ $color-grey: #aaaaaa
 $color-grey-light: #f2f2f2
 $color-brown: #f0ece9
 
-
 // fonts
 @font-face
   font-family: 'TCCC-UnityHeadline Bold'
@@ -92,23 +91,22 @@ html
 
 // swiper custom style
 .swiper-button-next, .swiper-button-prev
-    color: $color-red !important
-    transition-duration: 0.3s
+  color: $color-red !important
+  transition-duration: 0.3s
 
-    &::after
-        transform: scale(.7)
-        font-weight: bold !important
+  &::after
+    transform: scale(.7)
+    font-weight: bold !important
 
     &:hover
-        color: $color-black !important
+      color: $color-black !important
 
-.swiper-pagination 
+.swiper-pagination
   .swiper-pagination-bullet-active
     background: $color-red !important
 
 .swiper-wrapper
   align-items: flex-end
-
 
 // Text pages styles
 .text-page
@@ -152,3 +150,7 @@ html
     width: 600px
     max-width: 100%
     margin: 20px auto
+
+@media screen and (max-width: 480px)
+  [data-aos-delay]
+    transition-delay: 0 !important

@@ -16,8 +16,9 @@ export default function Cta({ children, onClick, className }) {
         hover:scale-105
         rounded-lg
         ${className}
-
       `}
+      data-aos="fade-up"
+      data-aos-delay="600"
       onClick={onClick}
     >
       {children}

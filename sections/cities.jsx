@@ -117,6 +117,8 @@ export default function Cities({ }) {
             w-11/12 lg:w-6/12
             mr-0 lg:mr-16
           `}
+          data-aos="zoom-in"
+          data-aos-delay="600"
         />
 
         <Separator />
@@ -150,6 +152,8 @@ export default function Cities({ }) {
                         lg:text-left
                         my-2 sm:my-1 md:my-0
                       `}
+                      data-aos="fade-left"
+                      data-aos-delay={index_li * 200}
                     >
                       {city}
                     </li>

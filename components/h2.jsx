@@ -13,7 +13,10 @@ export default function H2({ children, hidden, className }) {
         text-center lg:text-left
         ${className}
       `}
+      data-aos="zoom-in"
+      data-aos-delay="200"
     >
+    
       {children}
     </h2>
   )
