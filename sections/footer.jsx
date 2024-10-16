@@ -110,7 +110,7 @@ export default function Footer ({}) {
               m-0 md:m-2
             `}
           >
-            © Todos los derechos reservados 2024
+            © Todos los derechos reservados 2025
           </p>
 
           {
