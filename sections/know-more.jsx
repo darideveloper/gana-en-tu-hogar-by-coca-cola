@@ -10,6 +10,8 @@ export default function NewMore({ }) {
       className={`
         new-more
         mt-20
+        container
+        mx-auto
       `}
     >
       <div
@@ -60,8 +62,6 @@ export default function NewMore({ }) {
             my-4
             block
             w-full
-            duration-300
-            hover:scale-105
           `}
           data-aos="fade-up"
           data-aos-delay="400"
@@ -72,6 +72,8 @@ export default function NewMore({ }) {
             className={`
               w-full
               hidden md:block
+              hover:scale-105
+              duration-300
             `}
           />
           <img
