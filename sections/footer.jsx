@@ -108,9 +108,18 @@ export default function Footer ({}) {
             className={`
               p-2
               m-0 md:m-2
+              text-center
             `}
           >
             © Todos los derechos reservados 2025
+            <br />
+            Powered by &nbsp;
+            <Link
+              href={`https://api.whatsapp.com/send?phone=5214493402622`}
+              target="_blank"
+            >
+              Dari Developer
+            </Link>
           </p>
 
           {
