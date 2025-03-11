@@ -58,6 +58,7 @@ export default function NewMore({ }) {
         <a
           href={ctaLink}
           target="_blank"
+          rel="noopener noreferrer"
           className={`
             my-4
             block
