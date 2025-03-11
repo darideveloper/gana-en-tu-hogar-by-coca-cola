@@ -117,6 +117,7 @@ export default function Footer ({}) {
             <Link
               href={`https://api.whatsapp.com/send?phone=5214493402622`}
               target="_blank"
+              rel="noopener noreferrer"
             >
               Dari Developer
             </Link>
